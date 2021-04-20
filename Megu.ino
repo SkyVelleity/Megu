@@ -5,8 +5,8 @@
 #include <ArduinoOTA.h>
 
 #ifndef STASSID
-#define STASSID "SkyFi"
-#define STAPSK  "SkYTE27fc"
+#define STASSID "SSID Goes Here"
+#define STAPSK  "Password goez here"
 #endif
 
 const char* ssid = STASSID;
