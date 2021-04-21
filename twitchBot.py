@@ -182,14 +182,14 @@ class Bot(commands.Bot):
     @commands.command(name='help')
     async def my_command(self, ctx):
         await ctx.send(f'Hello {ctx.author.name}, you can draw on the screen with !draw :^)!')
-        await ctx.send(f'Use !draw x y col_in_hex')
-        await ctx.send(f'e.g. !draw 12 14 0xF0F0')
+        await ctx.send(f'Use !draw x y R G B')
+        await ctx.send(f'e.g. !draw 12 14 0 255 128')
 
     @commands.command(name='internal_bad')
     async def bad_comm(self, ctx):
         await ctx.send(f'Invalid command {ctx.author.name}, see correct format below, dimensions are x: '+str(minx)+' to '+str(maxx)+' and y: '+str(miny)+' to '+str(maxy)+' :^)!')
-        await ctx.send(f'Use !draw x y col_in_hex - can use https://chrishewett.com/blog/true-rgb565-colour-picker/ to get your colours')
-        await ctx.send(f'e.g. !draw 12 14 0xF0F0')
+        await ctx.send(f'Use !draw x y R G B')
+        await ctx.send(f'e.g. !draw 12 14 0 255 128')
 
     @commands.command(name='internal_good')
     async def good_comm(self, ctx):
