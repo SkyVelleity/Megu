@@ -7,7 +7,9 @@ I reccomend using
 https://www.pixilart.com/draw#
 -to make art, but literally any image fed into the above converter will work.
 For now, max you can prrobably do is a 64x32 image, if you set
+
 int startX = -32;
+
 int startY = -16
 
 Once you've got your output, just spam it to twitch chat, newlines are your friend.
