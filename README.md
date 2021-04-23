@@ -43,4 +43,4 @@ You can make images suitable here: //https://www.pixilart.com/draw#
 Saves you loading up GIMP.
 Best if it's pixel art with only Primary, Secondary, and Tertiary colours
 Here's a handy reference chart:
-![This isn't XKCD lol]https://cdn.sparkfun.com/assets/learn_tutorials/7/1/0/TertiaryColorWheel_Chart.png)
+![This isn't XKCD lol](https://cdn.sparkfun.com/assets/learn_tutorials/7/1/0/TertiaryColorWheel_Chart.png)
